@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+.sidebar {
+    height: 100%;
+    width: 7%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.sidebar a {
+    padding: 9px 7px 43px 6px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(65, 58, 58);
+    display: block;
+    text-align: center;
+} 
+ .main{
+    margin-left: 7%;
+    padding: 0 0px;
+}
+ 
+svg{
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* gap: 40px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+}
+
+.search-container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    /* width: 700px; */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+   }
+
+.search-container input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 20px;
+    top: 0;
+    position: sticky;
+
+}
+
+.search-container button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+#mic {
+    border-radius: 50%;
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#yo {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+#bg-image {
+    width: 27px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ben-10{
+    width: 20px;
+} 
+ /* .bgcolor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.bgcolor div {
+    width: 7%;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 0.8%;
+    gap: 15px;
+} */
+.bgcolor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    margin-top: 0; /* Adjust based on your layout */
+    cursor: pointer;
+    overflow-x: auto;
+    /* border: 1px solid pink; */
+    gap: 15px;
+}
+
+.bgcolor div {
+    width: 8%;
+    height: 35px;
+    border-radius: 10px;
+    /* margin-left: 0.8%; Adjust as needed */
+ 
+
+}
+
+
+.clickable {
+    background-color: whitesmoke;  
+    color: black;
+    width: 9%;
+    height: 35px;
+}
+
+#one {
+    width: 4%;
+    height: 33px;
+}
+
+#three {
+    width: 5%;
+}
+#four{
+    width: 5%;
+}
+
+#five {
+    width: 10%;
+}
+
+#six {
+    width: 5%;
+    height: 38px;
+}
+
+#seven {
+    width: 8%;
+}
+
+#ten {
+    width: 5%;
+}
+#nine{
+    width: 8%;
+}
+
+
+p{
+  margin-top: 10px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white; 
+}
+
+.bgcolor {
+    position: sticky;
+    top: 60px; 
+    z-index: 999; 
+    background-color: white; 
+}
+.clickable {
+    cursor: pointer;
+}
+ .ome div{
+    width: 31%;
+    height: 190px;
+    border-radius: 8px;
+    margin-bottom: 7rem;
+ }
+ .ome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0.8%;
+    padding: 8px 13px;
+    gap: 30px;
+ } 
+ #mikael{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+ }
+ #mikael img{
+    width: 28px !important;
+    border-radius: 50% !important;
+    height: 30px !important;
+    object-fit: cover;
+}
+#mikael h3{
+    margin: 0;
+     white-space: nowrap;
+     text-decoration: none;
+     font-size: 1.1rem;
+     letter-spacing: normal;
+}
+#dots {
+    font-size: 24px; /* You can adjust the size if needed */
+    position: relative;
+    right: -60px;
+    bottom: 14px;
+    cursor: pointer;
+    margin-bottom: 3px;
+  }
+ #home1 img, #home2 img, #home3 img, #home4 img, #home5 img, #home6 img{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 10px;
+ }
+.shorts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.shorts div{
+    width: 43%;
+    height: 410px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  
+}
+#short1{
+    background-color:rgb(202, 199, 199);
+}
+#short2{
+    background-color:rgb(202, 199, 199);
+
+}
+#short3{
+    background-color:rgb(202, 199, 199);
+}
+
+#short4{
+    background-color:rgb(202, 199, 199);
+}
+#short5{
+    background-color: rgb(202, 199, 199);
+}
+.shorts h1{
+    margin-left: 30px;
+}
+#short1 img, #short2 img, #short3 img, #short4 img, #short5 img{
+    width: 99%;
+    height: 410px;
+    border-radius: 10px;
+    object-position: center;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+/* Styling for the clicked (active) state */
+.active {
+    background-color: black; 
+    color: white; 
+}
+.Hoe{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Hoe div{
+    width: 56%;
+    height: 280px;
+    gap: 20px;
+    margin-left: 0.8%; 
+     margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    /* For larger screens like desktps and TVs */
+    .sidebar{
+        width: 7%;
+        padding-top: 14px;
+    }
+    .sidebar a{
+        padding: 9px 7px 37px 4px;
+        font-size: 12px;
+    }
+    .main{
+        margin-left: 6%;
+        padding: 0 0px; 
+
+    }
+    .navbar{
+        gap: 30px;
+        padding: 8px;
+    }
+    .logo img{
+        width: 20px;
+    }
+    /* .search-container{
+        width: 500px;
+    } */
+    #yo{
+        gap: 25px;
+    }
+    .bgcolor div{
+        width: 11%;
+    }
+    .ome div{
+        width: 31%;
+    }
+    #five{
+        width: 14%;
+    }
+    #three{
+        width: 11%;
+    }
+    #six{
+        width: 8%;
+    }
+    #four{
+        width: 8%;
+    }
+    #nine{
+        width: 11%;
+    }
+    #ten{
+        width: 8%;
+    }
+    #mikael h3{
+        font-size: 0.9rem;
+
+    }
+    #dots{
+        font-size: 22px;
+        right: -8px;
+    }
+    .shorts div{
+        width: 42%;
+    }
+    
+} 
+
+@media screen and (max-width: 992px) {
+    .sidebar{
+        width: 7%;
+
+    }
+    .sidebar a{
+        font-size: 9px;
+        padding: 11px 7px 39px 6px;
+    }
+    .navbar{
+        gap: 20px;
+    }
+    .logo h1{
+        font-size: 1rem;
+    }
+    /* .search-container{
+        width: 470px;
+    } */
+    #yo{
+        gap: 25px;
+    }
+    .bgcolor div{
+        width: 20%;
+        gap: 25px !important;
+
+     }
+      #two{
+        width: 14%;
+      }
+      #three{
+        width: 10%;
+      }
+      #four{
+        width: 10%;
+      }
+      #five{
+        width: 19%;
+      }
+      #eight{
+        width: 11%;
+      }
+      #nine{
+        width: 16%;
+      }
+      .ome div{
+        width: 30.2%;
+      }
+      .ome{
+        align-items: center;
+      }
+      #mikael h3{
+        font-size: 0.7rem;
+      }
+      #dots{
+        font-size: 22px;
+        right: -10px;
+        bottom: 19px;
+      }
+      #shorts div{
+        width: 42%;
+     
+        
+       
+
+      }
+      .shorts{
+
+      }
+
+      
+     
+}
+@media screen and (max-width: 768px) {
+    .sidebar{
+        background-color: blueviolet;
+    }
+    /* .search-container{
+        width: 450px;
+    } */
+    .bgcolor div{
+        width: 12%;
+    }
+    .bgcolor{
+        padding: 9px;
+        margin-right: 20px;
+    }
+    #nine{
+        width: 15%;
+    }
+    
+    .ome div {
+            width: 47.8%; /* Adjust the width to accommodate 2 columns */
+        }
+    
+    
+    .ome {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-left: 0.8%;
+        padding: 8px 13px;
+        gap: 30px;
+    }
+    .bgcolor div {
+        /* width: 8%; */
+        /* margin-left: 0.9%; */
+        /* background-color: red; */
+
+    }
+      
+}
+
+@media (max-width: 412px) {
+    .sidebar{
+        width: 80px;
+    }
+    .sidebar a{
+        font-size: 14px;
+    }
+    .main{
+        margin-left: 80px;
+    }
+    .logo img{
+        width: 21px;
+    }
+    .logo h1{
+        font-size: 1rem;
+    }
+    /* .search-container{
+        width: 300px;
+    } */
+    #mic{
+        width: 19px;
+        margin-left: 8px;
+    }
+    #yo{
+        gap: 17px;
+    }
+    #bg-image{
+        width: 21px;
+    }
+    .bgcolor div{
+        width: 20%;
+        gap: 25px !important;
+
+     }
+     /* .bgcolor{
+        padding: 20px;
+     } */
+      #two{
+        width: 14%;
+      }
+      #three{
+        width: 10%;
+      }
+      #four{
+        width: 10%;
+      }
+      #five{
+        width: 19%;
+      }
+      #eight{
+        width: 11%;
+      }
+      #nine{
+        width: 10%;
+       }
+            .ome div{
+        width: fit-content;
+
+      }
+      #mikael img{
+        width: 41px !important;
+        height: 44px !important;
+      }
+      #mikael{
+        margin-left: 5px;
+        gap: 20px;
+      }
+      #dots{
+        font-size: 90px;
+        right: -70px;
+      } 
+    }
+      @media (max-width: 412px) {
+        .shorts {
+            flex-direction: column; /* Maintain column layout */
+            gap: 10px; /* Keep the gap between elements */
+        }
+    
+        .shorts div {
+            width: 100%; /* Make each div take up full width */
+            height: auto; /* Allow height to adjust based on content */
+            margin-left: 0; /* Remove margin to center the content */
+            margin-top: 10px; /* Keep the margin on top */
+        }
+        /* .search-container{
+            width: 350px;
+        } */
+    }
+    
+    
+   
